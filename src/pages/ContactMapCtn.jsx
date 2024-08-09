@@ -1,4 +1,5 @@
 import React from 'react'
+import MapCtn from './MapCtn'
 
 const ContactMapCtn = () => {
   return (
@@ -32,6 +33,8 @@ const ContactMapCtn = () => {
                 </li>
             </div>
         </div>
+
+        <MapCtn/>
 
     </section>
     

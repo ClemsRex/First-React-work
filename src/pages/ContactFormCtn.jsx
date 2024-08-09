@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import P1 from '../assets/people/1.png'
+import P2 from '../assets/people/2.png'
+import P3 from '../assets/people/3.png'
 
 const ContactFormCtn = () => {
   return (
@@ -17,30 +20,30 @@ const ContactFormCtn = () => {
 
         <div className="people">
           <div>
-            <img src="img/people/1.png" alt="" />
+            <img src= {P1} alt="" />
             <p>
               <span>John Doe</span>
               Senior Marketing Manager <br />
               Phone: +000 123 456 789 <br />
-              <a href="mailto:contact@example.com">Email: contact@example.com</a>
+              <Link to="mailto:contact@example.com">Email: contact@example.com</Link>
             </p>
           </div>
           <div>
-            <img src="img/people/2.png" alt="" />
+            <img src={P2} alt="" />
             <p>
               <span>William Smith</span>
               Senior Marketing Manager <br />
               Phone: +000 123 456 789 <br />
-              <a href="mailto:contact@example.com">Email: contact@example.com</a>
+              <Link to="mailto:contact@example.com">Email: contact@example.com</Link>
             </p>
           </div>
           <div>
-            <img src="img/people/3.png" alt="" />
+            <img src={P3} alt="" />
             <p>
               <span>Emma Stone</span>
               Senior Marketing Manager <br />
               Phone: +000 123 456 789 <br />
-              <a href="mailto:contact@example.com">Email: contact@example.com</a>
+              <Link to="mailto:contact@example.com">Email: contact@example.com</Link>
             </p>
           </div>
         </div>
