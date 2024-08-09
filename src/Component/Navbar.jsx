@@ -16,11 +16,11 @@ const Navbar = () => {
 
         <div>
             <ul id="navbar">
-                <li><Link to={'/'}>Home</Link></li>
-                <li><Link to={'#'}>Shop</Link></li>
-                <li><Link to={'#'}>Blog</Link></li>
-                <li><Link to={'#'}>About</Link></li>
-                <li><Link to={'#'}>Contact</Link></li>
+                <li><Link to={'/home'}>Home</Link></li>
+                <li><Link to={'/shop'}>Shop</Link></li>
+                <li><Link to={'/blog'}>Blog</Link></li>
+                <li><Link to={'/about'}>About</Link></li>
+                <li><Link to={'/contact'}>Contact</Link></li>
                 {/* <li id="bag"><a className="active"  href="cart.html"><i className="fas fa-bag-shopping"></i></a></li>
                 <a href="#" id="close"><i className="fas fa-times"></i></a> */}
             </ul>

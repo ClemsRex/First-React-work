@@ -6,7 +6,6 @@ import Product from '../pages/Product.jsx'
 import FirstBanner from './FirstBanner.jsx'
 import Product2 from './Product2.jsx'
 import SmBanner from './SmBanner.jsx'
-import Newsletter from './Newsletter.jsx'
 
 const Home = () => {
   return (
@@ -17,7 +16,6 @@ const Home = () => {
       <FirstBanner/>
       <Product2/>
       <SmBanner/>
-      <Newsletter/>
     </>
   )
 }

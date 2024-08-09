@@ -1,11 +1,15 @@
 import React from 'react'
-import Hero from './Hero2'
+import ShopHero from './ShopHero'
 import '../AllCss/Shop.css'
+import ShopProduct from './ShopProduct'
+import Pagimation from './Pagimation'
 
 const Shop = () => {
   return (
     <>
-      <Hero/>
+      <ShopHero/>
+      <ShopProduct/>
+      <Pagimation/>
     </>
   )
 }
