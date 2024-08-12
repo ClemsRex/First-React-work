@@ -7,7 +7,7 @@ const AboutVidCtn = () => {
     <section id="about-app" class="section-p1"> 
         <h1>Download Our <a href="#">App</a></h1>
         <div class="video">
-            <video autoplay muted loop src={MyVid}></video>
+            <video controls src={MyVid}></video>
         </div>
     </section>
     </>

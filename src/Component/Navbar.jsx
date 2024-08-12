@@ -1,37 +1,51 @@
-import React from 'react'
-import '../AllCss/Navbar.css'
+import { useState } from 'react';
 import { Link } from 'react-router-dom'
 import Logo from '../assets/logo.png'
-
+import { FaShoppingBag,  } from "react-icons/fa";
+import { FaOutdent } from "react-icons/fa";
+import { FaTimes } from "react-icons/fa";
+import '../AllCss/Navbar.css'
 
 const Navbar = () => {
+
+  const [isNavActive, setIsNavActive] = useState(false);
+
+  const handleBarClick = () => {
+    setIsNavActive(true);
+  };
+
+  const handleCloseClick = () => {
+    setIsNavActive(false);
+  };
+
   return (
-    <>
+    <div>
 
 
-
-    
 <section id="header">
-        <Link to={'#'}><img src={Logo} alt="logo"/></Link>
+      <Link to={'/'}><img src={Logo} alt="logo" /> </Link>
 
-        <div>
-            <ul id="navbar">
-                <li><Link to={'/home'}>Home</Link></li>
-                <li><Link to={'/shop'}>Shop</Link></li>
-                <li><Link to={'/blog'}>Blog</Link></li>
-                <li><Link to={'/about'}>About</Link></li>
-                <li><Link to={'/contact'}>Contact</Link></li>
-                {/* <li id="bag"><a className="active"  href="cart.html"><i className="fas fa-bag-shopping"></i></a></li>
-                <a href="#" id="close"><i className="fas fa-times"></i></a> */}
-            </ul>
-        </div>
-{/* 
-        <div id="mobile">
-            <a href="cart.html"><i className="fas fa-bag-shopping"></i></a>
-            <i id="bar" className="fas fa-outdent"></i>
-        </div> */}
+      <div>
+        <ul id="navbar" className={isNavActive ? "active" : ""}>
+          <li><Link to={'/'}>Home</Link></li>
+          <li><Link to={'/shop'}>Shop</Link></li>
+          <li><Link to={'/blog'}>Blog</Link></li>
+          <li><Link to={'/about'}>About</Link></li>
+          <li><Link to={'/contact'}>Contact</Link></li>
+          <li id="bag"> <Link to={'/'}><FaShoppingBag /></Link></li>
+          <Link to="#" id="close" onClick={handleCloseClick}>
+            <i><FaTimes /></i>
+          </Link>
+        </ul>
+      </div>
+
+      <div id="mobile">
+      <Link to="cart.html"><FaShoppingBag /></Link>
+        <i id="bar"><FaOutdent  onClick={handleBarClick} />  </i>
+      </div>
     </section>
-    </>
+      
+    </div>
   )
 }
 

@@ -16,24 +16,26 @@ import N5 from '../assets/products/n5.jpeg'
 import N6 from '../assets/products/n6.jpeg'
 import N7 from '../assets/products/n7.jpeg'
 import N8 from '../assets/products/n8.jpeg'
+import { FaStar } from "react-icons/fa";
 
 const ShopProduct = () => {
   return (
     <>
       <section id="project1" class="section-p1">
         <div class="product-container">
+
             <div class="product">
                 <img src={F1} alt=""/>
                 <div class="des">
                     <span>Prowallert</span>
                     <h5>Vintage Newpaper T-Shirt</h5>
-                    {/* <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div> */}
+                    <div class="star">
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+                    </div> 
                     <h4>$25</h4>
                 </div>
                 {/* <a href="#" class="cart"> <i class="fas fa-cart-shopping"></i></a> */}
