@@ -32,7 +32,7 @@ const Navbar = () => {
           <li><Link to={'/blog'}>Blog</Link></li>
           <li><Link to={'/about'}>About</Link></li>
           <li><Link to={'/contact'}>Contact</Link></li>
-          <li id="bag"> <Link to={'/'}><FaShoppingBag /></Link></li>
+          <li id="bag"> <Link to={'/cart'}><FaShoppingBag /></Link></li>
           <Link to="#" id="close" onClick={handleCloseClick}>
             <i><FaTimes /></i>
           </Link>
@@ -40,8 +40,8 @@ const Navbar = () => {
       </div>
 
       <div id="mobile">
-      <Link to="cart.html"><FaShoppingBag /></Link>
-        <i id="bar"><FaOutdent  onClick={handleBarClick} />  </i>
+        <Link to={'/cart'} className='bagg'><FaShoppingBag /></Link>
+        <i id="bar"><FaOutdent  onClick={handleBarClick} /> </i>
       </div>
     </section>
       

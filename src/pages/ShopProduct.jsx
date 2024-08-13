@@ -20,13 +20,15 @@ import N8 from '../assets/products/n8.jpeg'
 import { FaStar, FaShoppingCart  } from "react-icons/fa";
 
 
+
 const ShopProduct = () => {
+
   return (
     <>
       <section id="project1" class="section-p1">
         <div class="product-container">
 
-            <div class="product">
+            <div class="product" >
                 <img src={F1} alt=""/>
                 <div class="des">
                     <span>Prowallert</span>

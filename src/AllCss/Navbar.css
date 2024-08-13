@@ -124,6 +124,10 @@
     display: none;
     align-items: center;
   }
+
+  #mobile .bagg {
+    color: #1a1a1a;
+  }
   
   #close {
     display: none;
