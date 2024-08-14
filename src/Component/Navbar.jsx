@@ -26,7 +26,7 @@ const Navbar = () => {
       <Link to={'/'}><img src={Logo} alt="logo" /> </Link>
 
       <div>
-        <ul id="navbar" className={isNavActive ? "active" : ""}>
+        <ul id="navbar" className={isNavActive ? "active" : ""} onClick={handleCloseClick}>
           <li><Link to={'/'}>Home</Link></li>
           <li><Link to={'/shop'}>Shop</Link></li>
           <li><Link to={'/blog'}>Blog</Link></li>

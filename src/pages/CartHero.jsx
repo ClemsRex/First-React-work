@@ -3,7 +3,7 @@ import React from 'react'
 const CartHero = () => {
   return (
     <>
-    <section id="page-header" className="about-header">
+    <section id="page-header" className="cart-header">
     <h2>#cart</h2>
     <p>Add your coupon & SAVE upto 70%</p>
     </section>

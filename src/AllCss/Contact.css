@@ -1,8 +1,9 @@
 
 /* Hero Section Styling */
 
-#page-header.about-header {
-    background-image: url("../assets/banner/b11.jpg");
+#page-header {
+ 
+    margin-top: 80px;
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -11,6 +12,10 @@
     text-align: center;
     flex-direction: column;
     padding: 14px;
+}
+
+#page-header.contact-header {
+    background-image: url("../assets/banner/b11.jpg");
 }
 
 #page-header h2,

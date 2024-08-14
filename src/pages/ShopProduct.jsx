@@ -27,8 +27,8 @@ const ShopProduct = () => {
     <>
       <section id="project1" class="section-p1">
         <div class="product-container">
-
-            <div class="product" >
+            <div class="product">
+                <Link to={'/smproduct'}>
                 <img src={F1} alt=""/>
                 <div class="des">
                     <span>Prowallert</span>
@@ -42,7 +42,8 @@ const ShopProduct = () => {
                     </div> 
                     <h4>$25</h4>
                 </div>
-                 <Link to={'/'} class="cart"><FaShoppingCart /></Link>
+                 <Link to={'/cart'} class="cart"><FaShoppingCart /></Link>
+                 </Link> 
             </div>
             <div class="product">
                 <img src={F2} alt=""/>
@@ -58,7 +59,7 @@ const ShopProduct = () => {
                     </div>
                     <h4>$30</h4>
                 </div>
-                <Link to={'/'} class="cart"><FaShoppingCart /></Link>
+                <Link to={'/cart'} class="cart"><FaShoppingCart /></Link>
               
             </div>
             <div class="product">
@@ -75,7 +76,7 @@ const ShopProduct = () => {
                     </div> 
                     <h4>$15</h4>
                 </div>
-                <Link to={'/'} class="cart"><FaShoppingCart /></Link>
+                <Link to={'/cart'} class="cart"><FaShoppingCart /></Link>
               
             </div>
             <div class="product">
@@ -92,7 +93,7 @@ const ShopProduct = () => {
                     </div>
                     <h4>$25</h4>
                 </div>
-                <Link to={'/'} class="cart"><FaShoppingCart /></Link>
+                <Link to={'/cart'} class="cart"><FaShoppingCart /></Link>
               
             </div>
             <div class="product">
@@ -109,7 +110,7 @@ const ShopProduct = () => {
                     </div>
                     <h4>$15</h4>
                 </div>
-                <Link to={'/'} class="cart"><FaShoppingCart /></Link>
+                <Link to={'/cart'} class="cart"><FaShoppingCart /></Link>
               
             </div>
             <div class="product">
@@ -126,7 +127,7 @@ const ShopProduct = () => {
                     </div>
                     <h4>$35</h4>
                 </div>
-                <Link to={'/'} class="cart"><FaShoppingCart /></Link>
+                <Link to={'/cart'} class="cart"><FaShoppingCart /></Link>
               
             </div>
             <div class="product">
@@ -143,7 +144,7 @@ const ShopProduct = () => {
                     </div>
                     <h4>$22</h4>
                 </div>
-                <Link to={'/'} class="cart"><FaShoppingCart /></Link>
+                <Link to={'/cart'} class="cart"><FaShoppingCart /></Link>
               
             </div>
             <div class="product">
@@ -160,7 +161,7 @@ const ShopProduct = () => {
                     </div>
                     <h4>$35</h4>
                 </div>
-                <Link to={'/'} class="cart"><FaShoppingCart /></Link>
+                <Link to={'/cart'} class="cart"><FaShoppingCart /></Link>
               
             </div>
             <div class="product">
@@ -177,7 +178,7 @@ const ShopProduct = () => {
                     </div>
                     <h4>$25</h4>
                 </div>
-                <Link to={'/'} class="cart"><FaShoppingCart /></Link>
+                <Link to={'/cart'} class="cart"><FaShoppingCart /></Link>
               
             </div>
             <div class="product">
@@ -194,7 +195,7 @@ const ShopProduct = () => {
                     </div>
                     <h4>$20</h4>
                 </div>
-                <Link to={'/'} class="cart"><FaShoppingCart /></Link>
+                <Link to={'/cart'} class="cart"><FaShoppingCart /></Link>
               
             </div>
             <div class="product">
@@ -211,7 +212,7 @@ const ShopProduct = () => {
                     </div>
                     <h4>$25</h4>
                 </div>
-                <Link to={'/'} class="cart"><FaShoppingCart /></Link>
+                <Link to={'/cart'} class="cart"><FaShoppingCart /></Link>
             </div>
             <div class="product">
                 <img src={N4} alt=""/>
@@ -227,7 +228,7 @@ const ShopProduct = () => {
                     </div>
                     <h4>$15</h4>
                 </div>
-                <Link to={'/'} class="cart"><FaShoppingCart /></Link>
+                <Link to={'/cart'} class="cart"><FaShoppingCart /></Link>
               
             </div>
             <div class="product">
@@ -244,7 +245,7 @@ const ShopProduct = () => {
                     </div>
                     <h4>$17</h4>
                 </div>
-                <Link to={'/'} class="cart"><FaShoppingCart /></Link>
+                <Link to={'/cart'} class="cart"><FaShoppingCart /></Link>
               
             </div>
             <div class="product">
@@ -261,7 +262,7 @@ const ShopProduct = () => {
                     </div>
                     <h4>$35</h4>
                 </div>
-                <Link to={'/'} class="cart"><FaShoppingCart /></Link>
+                <Link to={'/cart'} class="cart"><FaShoppingCart /></Link>
             </div>
             <div class="product">
                 <img src={N7} alt=""/>
@@ -277,7 +278,7 @@ const ShopProduct = () => {
                     </div>
                     <h4>$25</h4>
                 </div>
-                <Link to={'/'} class="cart"><FaShoppingCart /></Link>
+                <Link to={'/cart'} class="cart"><FaShoppingCart /></Link>
             </div>
             <div class="product">
                 <img src={N8} alt=""/>
@@ -293,7 +294,7 @@ const ShopProduct = () => {
                     </div>
                     <h4>$25</h4>
                 </div>
-                <Link to={'/'} class="cart"><FaShoppingCart /></Link>
+                <Link to={'/cart'} class="cart"><FaShoppingCart /></Link>
             </div>
         </div>
     </section>

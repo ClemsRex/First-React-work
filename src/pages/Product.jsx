@@ -10,7 +10,6 @@ import F6 from '../assets/products/f6.jpeg'
 import F7 from '../assets/products/f7.jpeg'
 import F8 from '../assets/products/f8.jpeg'
 import { FaStar, FaShoppingCart  } from "react-icons/fa";
-import SmProduct1 from './SmProduct'
 
 
 
@@ -21,7 +20,7 @@ const Product = () => {
         <h2>Featured Products</h2>
         <p>Summer Collection New Morden Design</p>
         <div class="product-container">
-            <div class="product" Link to={SmProduct1} >
+            <div class="product" >
                 <img src={F1} alt=""/>
                 <div class="des">
                     <span>Prowallert</span>
@@ -35,7 +34,7 @@ const Product = () => {
                     </div>
                     <h4>$25</h4>
                 </div>
-                <Link to={'/'} class="cart"><FaShoppingCart /></Link>
+                <Link to={'/cart'} class="cart"><FaShoppingCart /></Link>
             </div>
             <div class="product">
                 <img src={F2} alt=""/>
@@ -51,7 +50,7 @@ const Product = () => {
                     </div>
                     <h4>$30</h4>
                 </div>
-                <Link to={'/'} class="cart"><FaShoppingCart /></Link>
+                <Link to={'/cart'} class="cart"><FaShoppingCart /></Link>
               
             </div>
             <div class="product">
@@ -68,7 +67,7 @@ const Product = () => {
                     </div>
                     <h4>$15</h4>
                 </div>
-                <Link to={'/'} class="cart"><FaShoppingCart /></Link>
+                <Link to={'/cart'} class="cart"><FaShoppingCart /></Link>
               
             </div>
             <div class="product">
@@ -85,7 +84,7 @@ const Product = () => {
                     </div>
                     <h4>$25</h4>
                 </div>
-                <Link to={'/'} class="cart"><FaShoppingCart /></Link>
+                <Link to={'/cart'} class="cart"><FaShoppingCart /></Link>
             </div>
             <div class="product">
                 <img src={F5} alt=""/>
@@ -101,7 +100,7 @@ const Product = () => {
                     </div>
                     <h4>$15</h4>
                 </div>
-                <Link to={'/'} class="cart"><FaShoppingCart /></Link>
+                <Link to={'/cart'} class="cart"><FaShoppingCart /></Link>
             </div>
             <div class="product">
                 <img src={F6} alt=""/>
@@ -117,7 +116,7 @@ const Product = () => {
                     </div>
                     <h4>$35</h4>
                 </div>
-                <Link to={'/'} class="cart"><FaShoppingCart /></Link>
+                <Link to={'/cart'} class="cart"><FaShoppingCart /></Link>
             </div>
             <div class="product">
                 <img src={F7} alt=""/>
@@ -133,7 +132,7 @@ const Product = () => {
                     </div>
                     <h4>$22</h4>
                 </div>
-                <Link to={'/'} class="cart"><FaShoppingCart /></Link>
+                <Link to={'/cart'} class="cart"><FaShoppingCart /></Link>
             </div>
             <div class="product">
                 <img src={F8} alt=""/>
@@ -149,7 +148,7 @@ const Product = () => {
                     </div>
                     <h4>$35</h4>
                 </div>
-                <Link to={'/'} class="cart"><FaShoppingCart /></Link>
+                <Link to={'/cart'} class="cart"><FaShoppingCart /></Link>
             </div>
         </div>
     </section>
